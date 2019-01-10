@@ -56,15 +56,15 @@ function draw()
 
 }
 
-//function readIncoming(inMessage) //when new data comes in it triggers this function, 
-//{                               
+function readIncoming(inMessage) //when new data comes in it triggers this function, 
+{                               
    
-//    sides = inMessage.message.slide +4; //take the number from the message and assign it to the sides variable
+    sides = inMessage.message.slide +4; //take the number from the message and assign it to the sides variable
 
-//}
+}
 
 function deviceMoved() {
-      sides = inMessage.message.slide +4; //take the number from the message and assign it to the sides variable
+    sides = sides + 1;
 }
 
 //draws a regular polygon. from P5 examples
